@@ -1,0 +1,20 @@
+.friend-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.friend-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.friend-list li.selected {
+  background-color: #ddd;
+}
+
+.friend-list {
+  width: 300px;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  overflow-y: auto;
+}

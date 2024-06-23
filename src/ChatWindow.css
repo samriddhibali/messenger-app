@@ -1,0 +1,38 @@
+.chat-window {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.message-container {
+  flex: 1;
+  margin-bottom: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: end;
+  align-items: end;
+  text-align: end;
+  white-space: pre-wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container textarea {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-container button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
